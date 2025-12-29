@@ -1,5 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FFFCDE;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 90%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.my-3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.my-5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mx-1 {
+    margin: 0 1%;
+}
+
+section {
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 20%;
+    text-align: center;
+    background-color: var(--main-color);
+
+}
+
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    margin: 3% 1%;
+    font-size: 18px;
+}
+
+p {
+    font-size: small;
 }
